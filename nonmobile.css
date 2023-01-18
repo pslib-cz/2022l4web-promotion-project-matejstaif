@@ -1,0 +1,178 @@
+@media only screen and (min-width: 50px) and (max-width: 1025px){
+    .hamburger__content a{text-decoration: none;color: #000;}
+    .hamburger-nav li{padding-top: 5vh;font-size: 1.25em;}
+    p.header__static__title {font-size: clamp(1.05em,3vw ,1.75em);}
+    p.down__title__large {padding-bottom: 2em;}
+    a.header__static__button {display: none;}
+    h1{font-size: clamp(1.5em,3vw ,1.75em);}
+    a.header__static__button {display: none;}
+    .hamburger.active span {transition: transform ease-in-out .33s;}
+    .hamburger-nav.active {left: 0;}
+    .hamburger__content a{text-decoration: none;color: rgb(255, 255, 255);margin-left: 5%;}
+    .header__static__title{color: #000000;}    
+    .up__text {padding-top: 13vh;}
+    .hamburger-row{position: absolute;right: 4%;top: 1rem;margin: 0;padding: 0;}
+    .hamburger-nav {position: absolute;left: -100%;width: 100%;top: 77px;bottom: 0;height: 100vh;box-sizing: border-box;transition: left ease-in-out .33s;background-color: #232325;}
+    .hamburger span:nth-child(1) { top: 9px; }
+    .hamburger span:nth-child(2) { top: 20px; }
+    .hamburger span:nth-child(3) { bottom: 11px; }
+    .active span:nth-child(1){transform: rotate(135deg);top: 19px;}      
+    .active span:nth-child(2){transform: rotate(45deg);}
+    .active span:nth-child(3){transform: rotate(135deg);top: 19px;}
+    .header__logo {width: 4.75em;height: auto;margin-left: 4%;margin-top: 1em;}
+    .hamburger-nav li {list-style-type: none;}
+    .fix-position {height: 77px;}
+    .header__static__porsche {background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./images/porsche.jpg);background-size: cover;width: 100vw;background-position: center;padding-bottom: 27vw;padding-top: 27vw;margin-top: 77px;}
+    p.header__static__title {margin: 0.75em 5%;}
+    .header__static__blur {background-color: #EFEFEF;border-bottom: 1px solid #7e7e873d;}
+    .header__static__blur__same-font p{color: #000000;}
+    .header__static__blur {display: grid;grid-template-columns: 1fr 1fr;grid-template-rows: 1fr 1fr;grid-template-areas: 'header__opentime header__adress''header__executive header__office';}
+    .header__static__blur__executive, .header__static__blur__open {margin-left: 10%;}
+    .header__static__blur__address, .header__static__blur__office {margin-right: 10%;}
+    .header__static__blur__address, .header__static__blur__open{padding-bottom: 1em;}
+    p.header__static__blur__office__title, p.header__static__blur__executive__title, p.header__static__blur__address__title, p.header__static__blur__open__title {margin: 0 0 1em 0;}
+    .header__static__blur__same-font span, .header__static__blur__open, .header__static__blur__address, .header__static__blur__executive__title, .header__static__blur__office__title {font-size: clamp(0.8em, 3vw, 1.5em);}
+    h2{font-size: 1.2em;}
+    .content__container__content--second img {width: calc(100vw - 11%);}
+    .content__container__content__button--active {margin-left: 5%;position: absolute;bottom: 1.5em;}
+    .content__container__content__photo--003 {margin-top: 3em;}
+    .content__container__content.content__container__content--first {font-size: .8em;}
+    .content__container__content--active p{padding-bottom: 0.75em;}
+    a.content__container__content__button--active {font-size: .8em;}
+    .content__container__content--active {padding-bottom: 1.5em;}
+    .up {text-align: center;height: 50vh;max-height: 500px;min-height: 300px;}
+    a.content__container__content__button--active {font-size: .8em;}
+    p.up__text__title, p.down__title__large {font-size: 1.2em;}
+    p.up__text__question, p.down__title__small  {font-size: .69em;}
+    .up__icon__email {background-size: 42px 27px;}
+    .up__icon__phone {background-size: 40px 23px;}
+    .up__icon__location {background-size: 25px;}
+    .up__icon__facebook {background-size: 32px 16px;}
+    .up__icon {padding-top: 1em;}
+    .down__text {display: flex;justify-content: space-between;}
+    span.content__container__content__button__svg {background-size: 20px 14px;}
+    .down__text__second {padding-right: 3em;}
+    a.down__text__first__created {position: absolute;bottom: 6.4em;right: 5%;}
+    .down__text__up {padding-top: 2em;}}
+    .content__container__content--padding {padding-bottom: 2em;}
+    .content__container__content img {width: 100%;}
+
+@media only screen and (min-width: 1025px){
+    h2 {font-size: clamp(1.1em, 1.15vw, 1.75em);}
+    .down__text {display: flex;position: absolute;right: 5%;top: 6em;}
+    .up__icon__email {background-size: 60px 37px;}
+    .up__icon__phone {background-size: 52px 29px;}
+    .up__icon__location {background-size: 31px;}
+    .up__icon__facebook {background-size: 40px 19px;}
+    a.down__text__first__created {position: absolute;bottom: -12em;}
+    p.down__title__large {padding-bottom: 10em;}
+    p.up__text__title, p.down__title__large {font-size: 1.5em;}
+    p.up__text__question, p.down__title__small {font-size: .9em;}
+    .up {padding: 0 5%;display: flex;justify-content: space-between;align-items: center;}
+    .up{height: 70vh;max-height: 600px;}
+    .content__container__content--all {display: flex;justify-content: space-between;align-items: center;}
+    p.header__static__blur__office__title, p.header__static__blur__executive__title, p.header__static__blur__address__title, p.header__static__blur__open__title {margin: 0 0 1.5em 0;}
+    .hamburger-nav {all: unset;top: 22px;position: absolute;right: calc(3.75%);}
+    .hamburger-btn--svg {background-image: url(./icons/up15.svg);padding: 22px 28px;background-size: 35px 35px;background-repeat: no-repeat;background-position-y: 10px;}
+    p.header__static__title {display: flex;flex-wrap: wrap;}
+    a.header__static__button {font-size: 16px;padding: 0.65em 0.75em;border: #fff solid 1px;margin-top: 1.5em;backdrop-filter: blur(15px) brightness(0.9) opacity(0.5);}
+    a.header__static__button:hover {backdrop-filter: blur(4px) brightness(0.9) opacity(0.95); transition: all .2s linear;}
+    .header__static__blur__same-font p{color: #fff;}
+    .header__static__blur {display: flex;justify-content: space-between;}
+    .header__static__porsche{background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./images/porsche.jpg);background-size: cover;height: calc(100vh);width: 100%;background-position-y: 75%;max-height: 1000px;}
+    .header__static__title{color: #ffffff;}    
+    .header__container__btn{font-size: 1rem;}
+    .hamburger-nav a{opacity: 1;color: #000000;text-decoration: none;}
+    .hamburger-zone span{display: none;}
+    .hamburger-nav ul{display: flex;list-style: none;}
+    .hamburger-nav li{margin: 0;margin-left: 2em;position: relative;font-size: .9em;padding: 0px;}
+    .hamburger__content--active::after, .coach__container__item__link::after{content: "";color: #ffffff;position: absolute;left: 0;width: 100%;height: 2px;background: currentColor;transform: scaleX(0);transform-origin: right;transition: transform 250ms ease-in;}
+    .hamburger__content--active::after{bottom: -0.25em;}
+    .hamburger-nav li:hover::after{transform: scaleX(1);transform-origin: left;}
+    .hamburger__content--active a:hover{color: #ffffff;transition: 1ms;}
+    .hamburger-row {display: none;}
+    .hamburger-nav {transform: none;}
+    img.header__logo {top: 15px;position: absolute;left: 4.5%;height: auto;width: 3em;}
+    .hamburger__content a {color: #fff;}
+    .fix-position {height: 54px;}
+    p.header__static__title {top: 25%;position: absolute;left: 5%;width: 36%;font-size: 1.85em;}
+    .header__static__blur {position: absolute;bottom: 0;backdrop-filter: blur(15px) brightness(0.9) opacity(.9);width: 100vw;}}
+    span.content__container__content__button__svg {background-size: 19px 16px;}
+
+@media only screen and (min-width: 1025px) and (max-width: 1250px){p.header__static__title {font-size: 1.5em;}.header__static__blur__office {margin-right: 5%;}.header__static__blur__open {margin-left: 5%;}.content__container__content__photo--003 {height: 26em;object-fit: cover;width: 100%;margin-top: 3em;}.content__container__content--second__box {display: flex;width: calc(50% - 0.4em);}.content__container__content__photo--001, .content__container__content__photo--002 {width: 100%;}.content__container__content__button--active {margin-left: 5%;}.content__container__content__button--active {position: absolute;bottom: 1.5em;}}
+@media only screen and (min-width: 50px) and (max-width: 1250px){.header__static__blur__animation{display: none;}.content__container {padding: 0 5%;}}
+@media only screen and (min-width: 1250px){
+    .header__static__blur__animation__mouse{width: 34px;height: 58px;position: relative;background: #151517 linear-gradient(transparent 0%,transparent 50%,#ffffff 50%,#ffffff 100%);background-size: 100% 200%;border-radius: 100px;animation: colorSlide 5s linear infinite,nudgeMouse 5s ease-out infinite;}
+    .content__container__content__button--active {margin-left: 5%;position: absolute;bottom: 1.5em;line-height: 20px;letter-spacing: 0.1px;}
+    .content__container {display: flex;width: 100%;}
+    .content__container__content--first {width: 60%;margin-right: 1em;padding-left: 5%;}
+    .content__container__content--second {width: 40%;padding-right: 5%;}
+    .content__container__content--second img {width: 100%;height: auto;}
+    .content__container__content--second__box {display: flex;width: calc(50% - 0.45em);}
+    .header__static__blur__animation__mouse:before,.header__static__blur__animation__mouse:after{content: '';position: absolute;top: 0;bottom: 0;right: 0;left: 0;margin: auto;}
+    .header__static__blur__animation__mouse:before{width: 30px;height: 54px;background-color: #60493f;border-radius: 100px;}
+    .header__static__blur__animation__mouse:after{background-color: #ffffff;width: 8px;height: 8px;border-radius: 100%;animation: trackBallSlide 5s linear infinite;}
+    .header__static__blur__animation__text{letter-spacing: 6px;color: #fff;text-indent: 12px;animation: colorText 5s ease-out infinite, nudgeText 5s ease-out infinite;position: absolute;bottom: 1.1em;}
+    .header__static__blur__animation {display: flex;flex-direction: column;align-items: center;}
+    .header__static__blur__office {padding-right: 5%;}
+    .header__static__blur__animation {padding-left: 8%;}
+    
+    @keyframes colorSlide{
+        0% {background-position: 0% 100%;}
+        20% {background-position: 0% 0%;}
+        21% {background-color: #151517;}
+        29.99% {background-color: #ffffff;background-position: 0% 0%;}
+        30% {background-color: #151517;background-position: 0% 100%;}
+        50% {background-position: 0% 0%;}
+        51% {background-color: #151517;}
+        59% {background-color: #ffffff;background-position: 0% 0%;}
+        60% {background-color: #151517;background-position: 0% 100%;}
+        80% {background-position: 0% 0%;}
+        81% {background-color: #151517;}
+        90%, 100% {background-color: #ffffff;}}
+    @keyframes colorText{
+        21% {color: #4e555900;}
+        30% {color: #ffffff;}
+        51% {color: #4e555900;}
+        60% {color: #ffffff;}
+        81% {color: #4e555900;}
+        90% {color: #ffffff;}} 
+    @keyframes trackBallSlide{
+        0%{opacity: 1;transform: scale(1) translateY(-20px)}
+        6%{opacity: 1;transform: scale(0.9) translateY(5px);}
+        14%{opacity: 0;transform: scale(0.4) translateY(40px);}
+        15%, 19%{opacity: 0;transform: scale(0.4) translateY(-20px);}
+        28%, 29.99%{opacity: 1;transform: scale(1) translateY(-20px);}
+        30%{opacity: 1;transform: scale(1) translateY(-20px);}
+        36%{opacity: 1;transform: scale(0.9) translateY(5px);}
+        44%{opacity: 0;transform: scale(0.4) translateY(40px);}
+        45%, 49%{opacity: 0;transform: scale(0.4) translateY(-20px);}
+        58%, 59.99%{opacity: 1;transform: scale(1) translateY(-20px);}
+        60%{opacity: 1;transform: scale(0.9) translateY(-20px);}
+        66%{opacity: 1;transform: scale(0.9) translateY(5px);}
+        74%{opacity: 0;transform: scale(0.4) translateY(40px);}
+        75%, 79%{opacity: 0;transform: scale(0.4) translateY(-20px);}
+        88%, 100%{opacity: 1;transform: scale(1) translateY(-20px);}}
+    @keyframes nudgeMouse{
+        0%{transform: translateY(0);}
+        20%{transform: translateY(8px);}
+        30%{transform: translateY(0);}
+        50%{transform: translateY(8px);}
+        60%{transform: translateY(0);}
+        80%{transform: translateY(8px);}
+        90%{transform: translateY(0);}}
+    @keyframes nudgeText {
+        0%{transform: translateY(0);}
+        20%{transform: translateY(2px);}
+        30%{transform: translateY(0);}
+        50%{transform: translateY(2px);}
+        60%{transform: translateY(0);}
+        80%{transform: translateY(2px);}
+        90%{transform: translateY(0);}}}
+
+@media only screen and (min-width: 1880px){p.header__static__title, h1 {font-size: 2.5em;}}
+
+@media only screen and (min-width: 2160px){h1{padding-top: 4em;}}
+
+@media only screen and (max-aspect-ratio: 10/7) and (orientation: landscape) and (min-width: 1050px){p.header__static__title {top: 35%;width: 38%;}}
+

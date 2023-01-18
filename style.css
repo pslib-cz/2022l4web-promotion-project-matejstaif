@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'apercu_promedium';
+    src: url('./fonts/apercu_medium_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'neue_haas_grotesk_medium';
+    src: url('./fonts/neuehaasdisplay-mediu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'apercu_proregular';
+    src: url('./fonts/apercu_regular_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'apercu_probold';
+    src: url('./fonts/apercu_bold_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'neue_haas_grotesk_bold';
+    src: url('./fonts/neuehaasdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+.hamburger__content a, .header__static__blur__same-font p, a.header__static__button, .down__text__first, .down__text__second{font-family: 'apercu_promedium';}
+p.header__static__title, h1, .content__container__content__text, .up__text__title, p.down__title__large {font-family: 'neue_haas_grotesk_medium';}
+.content__container__content__text{letter-spacing: .1px;line-height: 25px;}
+.header__static__title span, .red{color: #A7171A;}
+p.header__static__blur__animation__text, .up__text__question, p.down__title__small {font-family: 'apercu_proregular';}
+.content__container__content__gray-block{font-family: 'apercu_probold';background-color: #FFFFFF;line-height: 20px;letter-spacing: .1px;}
+p.header__static__title {line-height: 1.2;}
+h1{margin: 0 5%;}
+h2{margin: .5em 0;}
+h1{padding-top: 4.5vh;padding-bottom: 2.5vh;}
+h3 {font-size: clamp(1em, 1vw, 1.5em);}
+section{background-color: #EFEFEF;}
+.down{background-color: #F3F3F3;}
