@@ -1,1 +1,1 @@
-Muj projekt je hostovaný na [GitHub Pages] (https://github.com/pslib-cz/2022l4web-promotion-project-matejstaif.git)
+Muj projekt je hostovaný na [GitHub Pages] (https://pslib-cz.github.io/2022l4web-promotion-project-matejstaif/)
