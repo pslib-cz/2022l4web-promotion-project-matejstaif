@@ -1,0 +1,1 @@
+Muj projekt je hostovaný na [GitHub Pages] (http://htmlpreview.github.io/2022l4web-promotion-project-matejstaif)
